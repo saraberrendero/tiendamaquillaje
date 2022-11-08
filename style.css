@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+header {
+		margin: auto;
+        width: 70%;
+        height: 250px;
+        background-image: url("cabecera.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+}
+
+body{
+		background-image: url("fondo.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+}
+
+h1{
+		text-align: center;
+		padding-top: 3%;
+		font-size: 70px;
+		color: white;
+		font-family: 'Homemade Apple', cursive;
+		}
+		
+nav{
+		margin: auto;
+        width: 70%;
+        height: 70px;
+        background: white;
+		margin-top: 5px;
+	}
+ul {
+    list-style-type: none;
+    background-color: #333;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 25px 55px;
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+
+	
+.s1{
+margin-top:5px;
+margin-left:247px;
+width:50%;
+height:470px;
+float:left;
+display:inline-block;
+background-image: url("pelo.jpg");
+background-size:cover;
+background-repeat:no-repeat;}
+
+.s2{
+margin-top: 5px;
+margin-left:247px;
+width:50%;
+height:470px;
+float:left;
+display:inline-block;
+background-image: url("pelo2.jpg");
+background-size:cover;
+background-repeat:no-repeat;}
+
+.s3{
+margin-top:5px;
+margin-left:247px;
+width:50%;
+height:470px;
+float:left;
+background-image: url("pelo3.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+display:inline-block;
+}
+
+.s1 p{
+color:white;
+font-size:20px;
+font-family: 'Montserrat', sans-serif;
+padding-right:30px;
+padding-left:30px;
+padding-top:30px;}
+
+h2 a{
+color:white;
+font-size:35px;
+font-family: 'Montserrat', sans-serif;
+padding-right:20px;
+padding-left:0px;
+padding-top:30px;
+text-decoration:none;}
+
+.primer a{
+color:white;
+font-size:35px;
+font-family: 'Montserrat', sans-serif;
+padding-right:20px;
+padding-left:200px;
+padding-top:30px;
+text-decoration:none;}
+
+
+
+.s2 p{
+color:white;
+font-size:20px;
+font-family: 'Montserrat', sans-serif;
+padding-right:30px;
+padding-left:30px;
+padding-top:30px;}
+
+.s2 h2{
+color:white;
+font-size:35px;
+font-family: 'Montserrat', sans-serif;
+padding-right:20px;
+padding-left:200px;
+padding-top:30px;}
+
+.s3 p{
+color:white;
+font-size:20px;
+font-family: 'Montserrat', sans-serif;
+padding-right:30px;
+padding-left:30px;
+padding-top:30px;}
+
+.s3 h2{
+color:white;
+font-size:35px;
+font-family: 'Montserrat', sans-serif;
+padding-right:20px;
+padding-left:200px;
+padding-top:30px;}
+
+footer{
+		margin-left: 254px;
+        width: 70%;
+        height: 70px;
+        background-color: white;
+		margin-top: 5px;
+		display:inline-block;
+
+	}
+h3{
+		text-align: center;
+		font-size: 20px;
+		color: red;
+		font-family: 'Homemade Apple', cursive;}
+section{
+width:20%;
+height:1415px;
+background-color:white;
+float:right;
+display:inline-block;
+margin-top:5px;
+margin-right: 241px;
+}
+
+.crema {
+padding-top:20px;
+padding-left:30px;}
+
+.imagn{
+padding-top:20px;
+padding-left:15px;}
+
+li .menu2 {
+    display: block;
+    color: black;
+    padding: 10px 100px;
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+a:hover{
+color:red;
+text-decoration:underline;
+}
+
+.cabecera2 {
+		margin: auto;
+        width: 70%;
+        height: 50px;
+        background-color:black;
+}
+.columna1{
+margin-left:247px;
+width:380px;
+height:1025px;
+background-color:black;
+display: inline-block;
+margin-top:5px;
+margin-right:5px;
+float:left;
+}
+.columna2{
+width:380px;
+height:1025px;
+background-color:black;
+display: inline-block;
+margin-top:5px;
+margin-right:5px;
+float:left;
+}
+
+.columna3{
+width:378px;
+height:1025px;
+background-color:black;
+display: inline-block;
+margin-top:5px;
+margin-right:5px;
+float:left;
+}
+
+.tutoriales{
+color:red;
+text-align:center;
+font-family: 'Homemade Apple', cursive;
+font-size:30px;
+}
+
+@media screen and (max-width: 600px) {
+
+header {
+        height: 180px;      
+}
+
+nav{
+height:50px;
+}
+
+ul{
+padding-left:8px;}
+
+li a {
+    padding: 20px 8px;
+   font-size:10px;
+   
+}
+h1{
+		font-size: 40px;
+		padding-top:50px;
+		}
+
+.s1{
+margin-top:5px;
+margin-left:83px;
+width:70%;
+height:300px;}
+
+.primer a{
+font-size:20px;
+padding-left:25px;
+padding-top:30px;
+}
+
+.s1 p{
+font-size:17px;
+padding-right:30px;
+padding-left:30px;
+padding-top:30px;}
+
+.s2{
+margin-top:5px;
+margin-left:83px;
+width:70%;
+height:300px;}
+
+h2 a{
+font-size:20px;
+}
+
+.s2 h2{
+padding-left:25px;
+padding-top:2px;
+font-size:23px;}
+
+.s2 p{
+font-size:17px;
+padding-right:30px;
+padding-left:35px;
+padding-top:10px;
+}
+.s3{
+margin-top:5px;
+margin-left:83px;
+width:70%;
+height:300px;
+}
+
+.s3 h2{
+padding-left:25px;
+padding-top:2px;
+font-size:23px;}
+
+.s3 p{
+font-size:17px;
+padding-right:30px;
+padding-left:35px;
+padding-top:10px;
+}
+section{
+display:none;
+}
+
+.crema {
+padding-top:0px;
+padding-left:15px;}
+
+.imagn{
+padding-top:6px;}
+
+li .menu2 {
+    padding: 3px 15px;
+}
+
+footer{
+height:50px;
+margin-left:83px;}
+}
+
